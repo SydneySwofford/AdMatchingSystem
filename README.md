@@ -11,7 +11,7 @@ This project matches ad's from incoming user requests based off of query data to
 
 ## Class Diagram
 
-![Class Diagram](https://github.com/user-attachments/assets/bf904b6e-2827-4fc0-a342-78b65269b93c)
+![image](https://github.com/user-attachments/assets/e58ff68e-8ca3-462c-be2f-f4d1bc96be92)
 
 ## System Specification
 
