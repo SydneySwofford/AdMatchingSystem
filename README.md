@@ -1,6 +1,6 @@
-# Code Challenge
+# Ad Matching System
 
-Thank you for the opportunity to participate in this code challenge. I hope to be creating readable, maintainable, and extendable code with Simplifi soon!
+This project matches ad's from incoming user requests based off of query data to the most relevant ad at the highest price.
 
 ## Build Instructions
 
@@ -148,7 +148,7 @@ If a client only wants to serve specific ads to strictly iPad users, more data w
 
 ## Future Work
 
-I am proud of the work I have done, but there is always room for improvement.
+There are always room for improvement.
 
 - **Security Considerations**  
   The application handles potentially sensitive user data as requests are consumed. Considerations to protect this user data from malicious actors could enhance the security of the application.
