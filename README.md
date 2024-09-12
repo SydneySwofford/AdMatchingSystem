@@ -84,7 +84,7 @@ This project matches ad's from incoming user requests based off of query data to
 
 The flow of a request as it comes from the "client" (being read line by line).
 
-![Sequence Diagram](https://github.com/user-attachments/assets/1b3f6d43-610f-4741-9b42-5e01fdb8ecb0)
+![image](https://github.com/user-attachments/assets/bfaba9d6-b972-4c46-8a51-468ada2c83a9)
 
 ## Testing
 
