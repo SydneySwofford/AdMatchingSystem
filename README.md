@@ -90,7 +90,8 @@ The flow of a request as it comes from the "client" (being read line by line).
 
 Testing is accomplished through Microsoft's native unit testing environment, and tests are accessible through the Test Explorer once the project is built. Tests are written in the `TC_TN` format to denote like tests as `TC` and test number as `TN`, along with a short comment to describe the general test. An image of the testing environment and common labeling can be seen below:
 
-![Testing Environment](https://github.com/user-attachments/assets/97f5a068-4acc-4282-aa5f-e7272e3b153f)
+![image](https://github.com/user-attachments/assets/f5652b41-154e-4cf2-a9f7-a3c6918e8694)
+
 
 ### Test Plan
 
