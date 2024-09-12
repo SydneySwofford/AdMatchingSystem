@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\RequestParserTests">
+      <UniqueIdentifier>{a348037c-b98f-4acc-a254-251060ab3785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdManagerTests">
+      <UniqueIdentifier>{8d45b4ca-a826-4560-be17-f580684918e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MatchingEngineTests">
+      <UniqueIdentifier>{0fa50823-7d97-46fd-b08a-0908e7cf138e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UtilitiesTests">
+      <UniqueIdentifier>{5089a799-70a8-4de5-b175-3e7217a340df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ComponentTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParserTests\QueryStringParserTests.cpp">
+      <Filter>Source Files\RequestParserTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManagerTests\AdTests.cpp">
+      <Filter>Source Files\AdManagerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManagerTests\AdLoaderTests.cpp">
+      <Filter>Source Files\AdManagerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManagerTests\AdStorerTests.cpp">
+      <Filter>Source Files\AdManagerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngineTests\AdSelectorTests.cpp">
+      <Filter>Source Files\MatchingEngineTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngineTests\BidCalculatorTests.cpp">
+      <Filter>Source Files\MatchingEngineTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngineTests\MatcherTests.cpp">
+      <Filter>Source Files\MatchingEngineTests</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParserTests\RequestParserTests.cpp">
+      <Filter>Source Files\RequestParserTests</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParserTests\RequestTests.cpp">
+      <Filter>Source Files\RequestParserTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilitiesTests\OutputGeneratorTests.cpp">
+      <Filter>Source Files\UtilitiesTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParserTests\pch.h">
+      <Filter>Source Files\RequestParserTests</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManagerTests\pch.h">
+      <Filter>Source Files\AdManagerTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngineTests\pch.h">
+      <Filter>Source Files\MatchingEngineTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilitiesTests\pch.h">
+      <Filter>Source Files\UtilitiesTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testfile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

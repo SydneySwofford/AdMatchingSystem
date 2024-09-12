@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AdManager">
+      <UniqueIdentifier>{5602da12-9aa1-4967-a5b6-0a69537a190d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MatchingEngine">
+      <UniqueIdentifier>{55fee45f-e53c-40c8-a6ce-23d173112023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RequestParser">
+      <UniqueIdentifier>{8f184dfb-44f0-4b8f-ace5-9f9eb5c952d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{69e5b422-1572-4556-a55c-685a6b8c90e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdMatchingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManager\Ad.cpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManager\AdLoader.cpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AdManager\AdStorer.cpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngine\AdSelector.cpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngine\BidCalculator.cpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingEngine\Matcher.cpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParser\QueryStringParser.cpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParser\RequestParser.cpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParser\Request.cpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\OutputGenerator.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MatchingEngine\AdSelector.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngine\BidCalculator.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngine\Matcher.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\QueryStringParser.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\RequestParser.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\IAdLoader.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\IAdStorer.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\Ad.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\AdLoader.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\AdStorer.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\IQueryStringParser.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\IRequestParser.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\Request.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngine\IAdSelector.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngine\IBidCalculator.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingEngine\IMatcher.hpp">
+      <Filter>Source Files\MatchingEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\OutputGenerator.hpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AdManager\IAd.hpp">
+      <Filter>Source Files\AdManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser\IRequest.hpp">
+      <Filter>Source Files\RequestParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ads.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\requests.log">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
